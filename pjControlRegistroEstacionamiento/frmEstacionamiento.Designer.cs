@@ -58,34 +58,35 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(142, 9);
+            this.label1.Location = new System.Drawing.Point(112, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(488, 30);
+            this.label1.Size = new System.Drawing.Size(621, 37);
             this.label1.TabIndex = 0;
             this.label1.Text = "CONTROL DE REGISTRO DE ESTACIONAMIENTO";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(21, 61);
+            this.label2.Location = new System.Drawing.Point(24, 81);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 15);
+            this.label2.Size = new System.Drawing.Size(53, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "PLACA";
             // 
             // txtPlaca
             // 
-            this.txtPlaca.Location = new System.Drawing.Point(82, 58);
+            this.txtPlaca.Location = new System.Drawing.Point(94, 77);
+            this.txtPlaca.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPlaca.Name = "txtPlaca";
-            this.txtPlaca.Size = new System.Drawing.Size(100, 23);
+            this.txtPlaca.Size = new System.Drawing.Size(114, 27);
             this.txtPlaca.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(238, 61);
+            this.label3.Location = new System.Drawing.Point(272, 81);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(98, 15);
+            this.label3.Size = new System.Drawing.Size(126, 20);
             this.label3.TabIndex = 3;
             this.label3.Text = "COSTO DEL DÍA $";
             // 
@@ -93,9 +94,9 @@
             // 
             this.lblCosto.AutoSize = true;
             this.lblCosto.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblCosto.Location = new System.Drawing.Point(238, 100);
+            this.lblCosto.Location = new System.Drawing.Point(272, 133);
             this.lblCosto.Name = "lblCosto";
-            this.lblCosto.Size = new System.Drawing.Size(65, 25);
+            this.lblCosto.Size = new System.Drawing.Size(83, 32);
             this.lblCosto.TabIndex = 4;
             this.lblCosto.Text = "label4";
             // 
@@ -107,46 +108,50 @@
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.lblFecha);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Location = new System.Drawing.Point(410, 46);
+            this.groupBox1.Location = new System.Drawing.Point(469, 61);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(264, 125);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Size = new System.Drawing.Size(302, 167);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "FECHA Y HORA";
             // 
             // txtHoraFin
             // 
-            this.txtHoraFin.Location = new System.Drawing.Point(115, 90);
+            this.txtHoraFin.Location = new System.Drawing.Point(131, 120);
+            this.txtHoraFin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtHoraFin.Mask = "00:00";
             this.txtHoraFin.Name = "txtHoraFin";
-            this.txtHoraFin.Size = new System.Drawing.Size(131, 23);
+            this.txtHoraFin.Size = new System.Drawing.Size(149, 27);
             this.txtHoraFin.TabIndex = 5;
             this.txtHoraFin.ValidatingType = typeof(System.DateTime);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(17, 93);
+            this.label8.Location = new System.Drawing.Point(19, 124);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(82, 15);
+            this.label8.Size = new System.Drawing.Size(104, 20);
             this.label8.TabIndex = 4;
             this.label8.Text = "HORA SALIDA";
             // 
             // txtHoraInicio
             // 
-            this.txtHoraInicio.Location = new System.Drawing.Point(115, 54);
+            this.txtHoraInicio.Location = new System.Drawing.Point(131, 72);
+            this.txtHoraInicio.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtHoraInicio.Mask = "00:00";
             this.txtHoraInicio.Name = "txtHoraInicio";
-            this.txtHoraInicio.Size = new System.Drawing.Size(131, 23);
+            this.txtHoraInicio.Size = new System.Drawing.Size(149, 27);
             this.txtHoraInicio.TabIndex = 3;
             this.txtHoraInicio.ValidatingType = typeof(System.DateTime);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(17, 57);
+            this.label7.Location = new System.Drawing.Point(19, 76);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(78, 15);
+            this.label7.Size = new System.Drawing.Size(97, 20);
             this.label7.TabIndex = 2;
             this.label7.Text = "HORA INICIO";
             // 
@@ -154,26 +159,27 @@
             // 
             this.lblFecha.AutoSize = true;
             this.lblFecha.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblFecha.Location = new System.Drawing.Point(115, 20);
+            this.lblFecha.Location = new System.Drawing.Point(131, 27);
             this.lblFecha.Name = "lblFecha";
-            this.lblFecha.Size = new System.Drawing.Size(40, 15);
+            this.lblFecha.Size = new System.Drawing.Size(51, 20);
             this.lblFecha.TabIndex = 1;
             this.lblFecha.Text = "label6";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(17, 20);
+            this.label5.Location = new System.Drawing.Point(19, 27);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(44, 15);
+            this.label5.Size = new System.Drawing.Size(54, 20);
             this.label5.TabIndex = 0;
             this.label5.Text = "FECHA";
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.Location = new System.Drawing.Point(21, 148);
+            this.btnRegistrar.Location = new System.Drawing.Point(24, 197);
+            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(75, 23);
+            this.btnRegistrar.Size = new System.Drawing.Size(86, 31);
             this.btnRegistrar.TabIndex = 6;
             this.btnRegistrar.Text = "REGISTRAR";
             this.btnRegistrar.UseVisualStyleBackColor = true;
@@ -190,9 +196,10 @@
             this.columnHeader6,
             this.columnHeader7});
             this.lvRegistro.GridLines = true;
-            this.lvRegistro.Location = new System.Drawing.Point(12, 177);
+            this.lvRegistro.Location = new System.Drawing.Point(14, 236);
+            this.lvRegistro.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lvRegistro.Name = "lvRegistro";
-            this.lvRegistro.Size = new System.Drawing.Size(709, 206);
+            this.lvRegistro.Size = new System.Drawing.Size(810, 273);
             this.lvRegistro.TabIndex = 7;
             this.lvRegistro.UseCompatibleStateImageBehavior = false;
             this.lvRegistro.View = System.Windows.Forms.View.Details;
@@ -234,9 +241,10 @@
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(12, 406);
+            this.btnLimpiar.Location = new System.Drawing.Point(14, 541);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
+            this.btnLimpiar.Size = new System.Drawing.Size(86, 31);
             this.btnLimpiar.TabIndex = 8;
             this.btnLimpiar.Text = "LIMPIAR";
             this.btnLimpiar.UseVisualStyleBackColor = true;
@@ -244,9 +252,10 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(646, 406);
+            this.btnSalir.Location = new System.Drawing.Point(738, 541);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(75, 23);
+            this.btnSalir.Size = new System.Drawing.Size(86, 31);
             this.btnSalir.TabIndex = 9;
             this.btnSalir.Text = "SALIR";
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -254,9 +263,9 @@
             // 
             // frmEstacionamiento
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(742, 450);
+            this.ClientSize = new System.Drawing.Size(848, 600);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.lvRegistro);
@@ -267,6 +276,7 @@
             this.Controls.Add(this.txtPlaca);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmEstacionamiento";
             this.Text = "Control de registro de estacionamiento";
             this.Load += new System.EventHandler(this.frmEstacionamiento_Load);
